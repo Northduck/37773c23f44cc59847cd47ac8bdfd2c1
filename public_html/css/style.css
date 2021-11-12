@@ -10387,3 +10387,18 @@ p span {
 .change-lang__link--ru {
     background: url(../images/pds/ru.png) no-repeat left center;
 }
+
+.directors-list {
+    display        : flex;
+    justify-content: center;
+}
+
+.card-directors {
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .directors-list {
+        padding: 0 30px;
+    }
+}
